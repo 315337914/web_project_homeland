@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+    width: 194px;
+    height: 16px;
+    margin: 92px auto 24px;
+}
+
+@media  screen and ((max-width: 768px) and (min-width: 321px)) {
+
+    .footer__copyright{
+        width: 194px;
+        height: 16px;
+        margin: 88px auto 24px;
+    }
+}
+
+@media  screen and (max-width: 320px) {
+    
+    .footer__copyright{
+        width: 194px;
+        height: 14px;
+        margin: 64px auto 24px;
+    }
+}
