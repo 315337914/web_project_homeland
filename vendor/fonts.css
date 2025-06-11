@@ -1,9 +1,3 @@
-@font-face{
-    src: url(./fonts/InterVariable-Italic.ttf) format('truetype');
-    font-family: "Inter";
-    font-style: italic;
-}
-
 @font-face {
     src: url(./fonts/InterVariable.ttf) format('truetype');
     font-family: "Inter";
