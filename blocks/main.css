@@ -1,0 +1,107 @@
+.main {
+  max-width: 830px;
+  margin: 92px auto 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main__title {
+  max-width: 830px;
+  font-family: "Inter-Black", sans-serif;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  letter-spacing: 0%;
+}
+
+.main__paragraph {
+  font-size: 24px;
+  letter-spacing: 0%;
+}
+
+.main__paragraph_quote-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  max-width: 738px;
+  margin-top: 40px;
+}
+
+.main__paragraph_quote-author {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: right;
+  max-width: 732px;
+  margin: 10px 50px 0px auto;
+}
+
+.main__paragraph_text {
+  max-width: 722px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  letter-spacing: 0%;
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+
+  .main {
+    max-width: 720px;
+    margin: 90px auto 0px;
+  }
+
+  .main__title {
+    max-width: 707px;
+    font-size: 45px;
+    line-height: 49px;
+  }
+
+  .main__paragraph_quote-text {
+    max-width: 720px;
+    margin-top: 50px;
+  }
+
+  .main__paragraph_quote-author {
+    max-width: 720px;
+    margin: 0px 50px 0px auto;
+  }
+
+  .main__paragraph_text {
+    max-width: 720px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .main {
+    max-width: 288px;
+    margin: 64px auto 0px;
+  }
+
+  .main__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .main__paragraph_quote-text {
+    max-width: 288px;
+    margin-top: 40px;
+  }
+
+  .main__paragraph_quote-author {
+    max-width: 288px;
+    margin: 10px 10px 0px auto;
+  }
+
+  .main__paragraph_text {
+    max-width: 288px;
+  }
+
+}
